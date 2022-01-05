@@ -1,0 +1,9 @@
+.root {
+  @apply text-secondary cursor-pointer inline-flex
+  transition ease-in-out duration-150
+  text-center justify-center
+  items-center;
+}
+.root:focus {
+  @apply shadow-outline-normal outline-none;
+}
